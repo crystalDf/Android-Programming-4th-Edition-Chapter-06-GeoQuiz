@@ -23,13 +23,15 @@
             android:id="@+id/true_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/true_button"/>
+            android:text="@string/true_button"
+            style="?android:attr/buttonStyle"/>
 
         <Button
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/false_button"/>
+            android:text="@string/false_button"
+            style="?android:attr/buttonStyle"/>
 
     </LinearLayout>
 
@@ -44,7 +46,8 @@
             android:id="@+id/cheat_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cheat_button"/>
+            android:text="@string/cheat_button"
+            style="?android:attr/buttonStyle"/>
 
         <TextView
             android:id="@+id/remaining_cheat_tokens_text_view"
@@ -65,7 +68,8 @@
             android:layout_height="wrap_content"
             android:text="@string/prev_button"
             android:drawableStart="@drawable/arrow_left"
-            android:drawablePadding="4dp"/>
+            android:drawablePadding="4dp"
+            style="?android:attr/buttonStyle"/>
 
         <Button
             android:id="@+id/next_button"
@@ -73,7 +77,8 @@
             android:layout_height="wrap_content"
             android:text="@string/next_button"
             android:drawableEnd="@drawable/arrow_right"
-            android:drawablePadding="4dp"/>
+            android:drawablePadding="4dp"
+            style="?android:attr/buttonStyle"/>
 
     </LinearLayout>
 
