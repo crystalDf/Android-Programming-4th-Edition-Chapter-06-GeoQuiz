@@ -18,21 +18,22 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonBarStyle">
 
         <Button
             android:id="@+id/true_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/true_button"
-            style="?android:attr/buttonStyle"/>
+            style="?android:attr/buttonBarButtonStyle"/>
 
         <Button
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/false_button"
-            style="?android:attr/buttonStyle"/>
+            style="?android:attr/buttonBarButtonStyle"/>
 
     </LinearLayout>
 
@@ -41,14 +42,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        style="?android:attr/buttonBarStyle">
 
         <Button
             android:id="@+id/cheat_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cheat_button"
-            style="?android:attr/buttonStyle"/>
+            style="?android:attr/buttonBarButtonStyle"/>
 
         <TextView
             android:id="@+id/remaining_cheat_tokens_text_view"
@@ -60,7 +62,8 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonBarStyle">
 
         <Button
             android:id="@+id/prev_button"
@@ -69,7 +72,7 @@
             android:text="@string/prev_button"
             android:drawableStart="@drawable/arrow_left"
             android:drawablePadding="4dp"
-            style="?android:attr/buttonStyle"/>
+            style="?android:attr/buttonBarButtonStyle"/>
 
         <Button
             android:id="@+id/next_button"
@@ -78,27 +81,30 @@
             android:text="@string/next_button"
             android:drawableEnd="@drawable/arrow_right"
             android:drawablePadding="4dp"
-            style="?android:attr/buttonStyle"/>
+            style="?android:attr/buttonBarButtonStyle"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonBarStyle">
 
         <ImageButton
             android:id="@+id/prev_image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/arrow_left"
-            android:contentDescription="@string/prev_button"/>
+            android:contentDescription="@string/prev_button"
+            style="?android:attr/buttonBarButtonStyle"/>
 
         <ImageButton
             android:id="@+id/next_image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/arrow_right"
-            android:contentDescription="@string/next_button"/>
+            android:contentDescription="@string/next_button"
+            style="?android:attr/buttonBarButtonStyle"/>
 
     </LinearLayout>
 </LinearLayout>
